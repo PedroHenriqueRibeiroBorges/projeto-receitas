@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #F5F5DC;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.destaque{
+    color: #004225;
+}
+
+.cabecalho{
+    background-color: #004225;
+    padding: 1.5%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFCF9D;
+    text-decoration: none;
+}
+.apresentacao{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: 'Croissant One', cursive;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__imagem{
+    width: 55%;
+    height: 55%;
+}
+
+.rodape{
+    padding: 10px;
+    background-color: #FFB000;
+    color: #004225;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
