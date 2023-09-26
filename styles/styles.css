@@ -118,3 +118,13 @@ h1{
     overflow-wrap: break-word;
     align-self: center;
 }
+
+.receita__preparo2{
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    align-self: center;
+}
+
+.receita__preparo3{
+    align-self: stretch;
+}
