@@ -153,7 +153,8 @@ h1{
     .receita__preparo2{
         inline-size: 250px;
     }
-    .apresentacao__imagem{
-        
+    .receita__preparo{
+        inline-size: 250px;
+        overflow-wrap: break-word;
     }
 }
